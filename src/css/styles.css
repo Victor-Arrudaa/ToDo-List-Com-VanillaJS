@@ -1,0 +1,87 @@
+body {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    text-align: center;
+    background-color: #fff;
+}
+
+h1 {
+    margin: 32px 0;
+    color: #5e5e5e;
+}
+main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 460px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.todo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 48px;
+}
+
+.todo .text-task {
+    border: 1px solid #b47aea;
+    border-radius: 4px;
+
+    margin-bottom: 12px;
+    line-height: 32px;
+    width: 380px;
+
+    font-size: 18px;
+    padding: 0 8px;
+}
+
+.todo .button {
+    font-weight: 500;
+    font-size: 16px;
+    color: #b47aea;
+    cursor: pointer;
+    background-color: white;
+}
+
+.tasks {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+.tasks ul {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.tasks .task {
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+
+    border-bottom: 1px solid #b47aea75;
+    width: 85%;
+    padding: 12px 8px;
+}
+
+.tasks .task button {
+    color: #b47aea;
+    cursor: pointer;
+}
+
+.tasks .task p {
+    font-weight: 500;
+}
+
+.done {
+    text-decoration: line-through;
+    background-color: #b47aea2c;
+    border-radius: 4px;
+}
